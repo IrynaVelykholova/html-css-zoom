@@ -8,16 +8,16 @@
 body {
   background-color: black;
   height: 100vh;
+  color: white;
 }
 
 .nav-bar {
   height: 40px;
-  color: white;
+  
   display: flex;
   justify-content: end;
 }
 #nav-hr {
-  background-color: black;
   height: 30px;
   border: none;
 }
@@ -38,9 +38,10 @@ body {
 }
 
 /* MAIN */
-.box {
+.box-main {
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 .user {
   color: white;
@@ -57,4 +58,31 @@ body {
   bottom: 0%;
   background-color: rgb(66, 65, 66);
   padding: 3px;
+}
+#main-hr {
+  height: 20px;
+  border: none;
+}
+
+/* FOOTER */
+footer {
+  color: white;
+  background-color: rgb(33, 33, 33);
+  display: flex;
+  justify-content: space-between;
+}
+.icons {
+  fill: white;
+}
+.footer-left, .footer-center {
+  display: flex;
+  margin: 10px;
+}
+.arrow {
+  margin-right: 15px;
+  margin-left: 15px;
+  align-self: center;
+}
+.group {
+  text-align: center;
 }
