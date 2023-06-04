@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+main {
+    position: relative;
+}
+
+#second-image {
+    position: absolute;
+    left: 220px;
+}
+
+#arrow-left {
+    position: absolute;
+    bottom: 400px;
+    right: 20px;
+}
